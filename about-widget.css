@@ -1,0 +1,68 @@
+/**
+ * About me Widget Style
+ */
+
+.wp_widget_about_me {
+  max-width: 100%;
+  position: relative;
+}
+
+.wp_widget_about_me img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wp_widget_about_me .rounded img {
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.wp_widget_about_me .flat img {
+  margin-bottom: 8px;
+}
+
+.wp_widget_about_me-text.justify {
+  text-align: justify;
+}
+
+.wp_widget_about_me-text.center {
+  text-align: center;
+}
+
+.wp_widget_about_me-text.right {
+  text-align: right;
+}
+
+.wp_widget_about_me-text.left {
+  text-align: left;
+}
+
+.wp_widget_about_me-more {
+    text-align: center;
+    display: block;
+}
+
+.wp_widget_about_me-more-button {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  background: #ffffff;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 16px;
+  padding: 9px 24px 10px;
+  border: 1px solid;
+  border-color: #1EAEDB;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+}
+
+.wp_widget_about_me-more-button:hover {
+    background: #1EAEDB;
+    color: #fff;
+    border: 1px solid;
+    border-color: #1EAEDB;
+}
